@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  gdaxURL: 'wss://ws-feed.gdax.com'
 };
