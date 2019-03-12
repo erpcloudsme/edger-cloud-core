@@ -12,7 +12,7 @@ const routes: Routes =
 [
   {
     path: '',
-    redirectTo: 'dashboards/analytics',
+    redirectTo: 'authentication/login',
     pathMatch: 'full'
   },
   {
@@ -59,7 +59,11 @@ const routes: Routes =
   {
     path: '**',
     redirectTo: '/external/404'
-  }
+  },
+  {
+    path: 'authentication',
+    loadChildren: './authentication/authentication.module#AuthenticationModule'
+  },
 ];
 
 @NgModule({
