@@ -5,13 +5,5 @@
 
 export const environment = {
   production: false,
-  gdaxURL: 'wss://ws-feed.gdax.com',
-  firebase: {
-    apiKey: "AIzaSyAZKuzrF4qREGOB2YOntbyxH8E7SNC26gU",
-    authDomain: "edger-core.firebaseapp.com",
-    databaseURL: "https://edger-core.firebaseio.com",
-    projectId: "edger-core",
-    storageBucket: "edger-core.appspot.com",
-    messagingSenderId: "650771690564"
-  }
+  gdaxURL: 'wss://ws-feed.gdax.com'
 };
